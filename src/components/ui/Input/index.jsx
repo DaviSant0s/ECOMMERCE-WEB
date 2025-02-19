@@ -11,7 +11,7 @@ const Input = ({ type = 'text', placeholder = '', value, onChange, onClick }) =>
                 className="input"
             />
 
-            <span onClick={onClick} class="material-symbols-outlined">
+            <span onClick={onClick} className="material-symbols-outlined">
                 search
             </span>
 

@@ -14,8 +14,6 @@ export const getAllCategories = async (dispatch) => {
             type: categoriesTypes.GET_ALL_CATEGORIES_SUCCESS, 
             payload: { categories: data.categoryList}
         });
-
-        console.log(data.categoryList)
         
     } catch (error) {
 

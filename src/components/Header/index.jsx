@@ -14,13 +14,13 @@ const Header = () => {
 
             <div className='items-header-container'>
                 <div className='signin-or-signup-welcome'>
-                    <i class='bx bx-user'></i>
+                    <i className='bx bx-user'></i>
                     <div>
                         <span className='welcome-title'>Bem-vindo</span>
                         <span className='signin-or-signup'>Entre ou cadastre-se</span>
                     </div>
                 </div>
-                <i class='bx bx-cart-alt' ></i>
+                <i className='bx bx-cart-alt' ></i>
             </div>
             
         </header>

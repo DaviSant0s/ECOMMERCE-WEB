@@ -68,10 +68,17 @@
     text-decoration: none;
 }
 
+/*
 .menuHeaderContainer > ul > li > ul > li > a{
+
+}
+*/
+
+.parentCategory {
     font-weight: bold;
     display: block;
     font-size: 12px;
     text-decoration: none;
     color: #707070;
 }
+

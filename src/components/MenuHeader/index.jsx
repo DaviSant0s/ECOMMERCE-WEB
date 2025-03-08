@@ -16,7 +16,7 @@ const MenuHeader = () => {
 
       return categories.map(category => (
         <li key={category.name}>
-          { category.parentId ? <a href={category.slug}>{category.name}</a> : <span>{category.name}</span> }
+          { category.parentId ? <a className={category.children.length > 0 ? 'parentCategory' : ''} href={category.slug}>{category.name}</a> : <span>{category.name}</span> }
           { category.children.length > 0 && <ul>{renderCategories(category.children)}</ul> }
         </li>
       ));

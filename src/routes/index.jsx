@@ -6,12 +6,10 @@ import ProductList from '../pages/ProductList';
 export const RoutesApp = () => {
     return(
 
-        <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/:slug' element={<ProductList/>}/>
-            </Routes>
-        </BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/:slug' element={<ProductList/>}/>
+        </Routes>
 
     )
 }

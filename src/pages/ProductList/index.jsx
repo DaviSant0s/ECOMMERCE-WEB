@@ -15,9 +15,13 @@ const ProductList = () => {
     }, []);
 
     return (
-        <div>
+        <div className='productList-container'>
+
+            <div className='slug-name-category-container'><span>{slug}</span></div>
+
             <h1>Product List</h1>
             <p>Here you can browse all available products.</p>
+
         </div>
     );
 };

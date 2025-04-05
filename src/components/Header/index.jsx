@@ -1,14 +1,17 @@
 import './styles.css';
 import logo from '../../assets/logo.png'
 import Input from '../ui/Input';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header className="headerConatiner">
             <div className='logo-input-search-container'>
-                <div className='logo-container'>
-                    <img src={logo} alt="" />
-                </div>
+                <Link to='/'>
+                    <div className='logo-container'>
+                        <img src={logo} alt="" />
+                    </div>
+                </Link>
                 <Input placeholder='Buscar produtos, marcas e muito mais...'/>
             </div>
 

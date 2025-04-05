@@ -23,6 +23,7 @@
     width: 80px;
     height: 100%;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .logo-container img {

@@ -1,3 +1,28 @@
-* {
-    color: black;
+.productList-container {
+    background-color: #ededed;
+    background-color: #f2f3f4;
+    background-color: #ffffff;
+    height: 1000px;
+    padding-top: 20px;
+}
+
+.productList-container p, 
+.productList-container h1, 
+.productList-container span {
+    color: #110f0f;
+}
+
+.slug-name-category-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededee;
+    width: 80%;
+    height: 100px; 
+}
+
+.slug-name-category-container > span {
+    font-size: 1.5em;
+    font-weight: 600;
 }

@@ -2,13 +2,16 @@ import { useEffect } from 'react';
 import './styles.css';
 import { getProductsBySlug } from '../../api/productsApi';
 import { useParams } from 'react-router-dom';
+import { useProducts } from '../../context/productsContext/productsProvider';
 
 const ProductList = () => {
 
     const { slug } = useParams();
+    const {productState, productDispatch} = useProducts();
+    console.log(productState)
 
     useEffect(()=> {
-        getProductsBySlug(slug);
+        getProductsBySlug(productDispatch, slug);
     }, []);
 
     return (

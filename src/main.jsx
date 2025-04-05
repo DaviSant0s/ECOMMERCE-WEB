@@ -4,11 +4,14 @@ import './index.css'
 import App from './App.jsx'
 
 import CategoriesProvider from './context/categoriesContext/categoriesProvider.jsx'
+import ProductsProvider from './context/productsContext/productsProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <CategoriesProvider>
-    <StrictMode>
-      <App />
-    </StrictMode>
+    <ProductsProvider>
+      <StrictMode>
+        <App />
+      </StrictMode>
+    </ProductsProvider>
   </CategoriesProvider>
 )

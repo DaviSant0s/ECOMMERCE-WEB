@@ -1,8 +1,12 @@
 .productCard-container {
     
     width: 235px;
+    height: 392px;
     margin-top: 20px;
+
+    cursor: pointer;
 }
+
 
 .image-productCard {
     display: flex;
@@ -14,8 +18,13 @@
 }
 
 .image-productCard > img {
-    width: 75%;
+    height: 90%;
     mix-blend-mode: multiply;
+    transition: all 0.3s ease;
+}
+
+.productCard-container:hover > .image-productCard > img {
+    transform: scale(1.05);
 }
 
 .description-productCard {
@@ -35,6 +44,12 @@
 .name-product-productCard {
     font-size: 0.8em;
     font-weight: 400;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limita a 2 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 

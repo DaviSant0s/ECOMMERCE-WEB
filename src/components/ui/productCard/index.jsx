@@ -2,11 +2,11 @@ import './styles.css';
 import phone from '../../../assets/teste/phone.jpg'
 import Price from './components/Price';
 
-const ProductCard = ({ price, name}) => {
+const ProductCard = ({ price, name, image}) => {
     return (
         <div className="productCard-container">
             <div className='image-productCard'>
-                <img src={phone} alt="" />
+                <img src={image} alt="" />
             </div>
             <div className='description-productCard'>
 

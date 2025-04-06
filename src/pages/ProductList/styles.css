@@ -2,8 +2,8 @@
     background-color: #ededed;
     background-color: #f2f3f4;
     background-color: #ffffff;
-    height: 60vh;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .slug-name-category-container {
@@ -29,4 +29,26 @@
     gap: 5px;
     justify-items: center;
 
+}
+
+.filter-products-by-price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filter-products-by-price-content {
+    display: flex;
+    gap: 30px;
+}
+
+.label-checkbox-product-by-price {
+    display: flex;
+    gap: 5px;
+}
+
+.label-checkbox-product-by-price > input {
+    cursor: pointer;
 }

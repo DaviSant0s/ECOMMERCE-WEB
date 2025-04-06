@@ -52,3 +52,27 @@
 .label-checkbox-product-by-price > input {
     cursor: pointer;
 }
+
+.empty-product-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+.empty-product-list > img {
+    width: 200px;
+}
+
+.empty-product-list > span {
+    position: relative;
+    top: -40px;
+    font-size: 1.5em;
+    line-height: 140%;
+    font-weight: 500;
+}

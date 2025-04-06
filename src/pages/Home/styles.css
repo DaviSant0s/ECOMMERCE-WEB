@@ -1,16 +1,16 @@
 .home-container {
-    background-color: black;
-    height: 700px;
+    width: 100%;
 }
 
 .banner-container {
     display: flex;
     justify-content: center;
+    width: 100%;
     height: 500px;
     background-color:  black;
 }
 
-.banner-container > img{
+.banner-container img{
     height: 100%;
     mask-image: linear-gradient(to bottom, #000000 70%, rgba(0, 0, 0, 0.01) 100%);
 }

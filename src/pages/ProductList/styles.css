@@ -6,12 +6,6 @@
     padding-top: 20px;
 }
 
-.productList-container p, 
-.productList-container h1, 
-.productList-container span {
-    color: #110f0f;
-}
-
 .slug-name-category-container {
     margin: auto;
     display: flex;
@@ -25,4 +19,14 @@
 .slug-name-category-container > span {
     font-size: 1.5em;
     font-weight: 600;
+}
+
+.grid-product-list {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 5px;
+    justify-items: center;
+
 }

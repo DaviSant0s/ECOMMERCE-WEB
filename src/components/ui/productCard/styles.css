@@ -1,0 +1,40 @@
+.productCard-container {
+    
+    width: 235px;
+    margin-top: 20px;
+}
+
+.image-productCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: #f2f2f2;
+}
+
+.image-productCard > img {
+    width: 75%;
+    mix-blend-mode: multiply;
+}
+
+.description-productCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fafafa;
+    padding: 15px 20px 15px 20px;
+}
+
+.price-productCard {
+    font-weight: 500;
+    font-size: 1.17em;
+    line-height: 100%;
+}
+
+.name-product-productCard {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+

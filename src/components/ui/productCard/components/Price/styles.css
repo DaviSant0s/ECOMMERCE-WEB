@@ -1,0 +1,13 @@
+.price-container {
+    position: relative;
+    display: flex;
+    gap: 3px;
+}
+
+.floating-price {
+    position: relative;
+    top: 0px;
+    font-size: 0.7em;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
